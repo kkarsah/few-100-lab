@@ -4,16 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Front End Web 100</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
 </head>
 
 <body>
     <header>
         <h1>Front End Web 100 Starter</h1>
         <h2>Progressive ITU</h2>
+        <h2>Tip Calculator</h2>
     </header>
     <main>
-        
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">$</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Amount(to the nearest dollar)">
+            <div class="input-group-append">
+              <span class="input-group-text">.00</span>
+            </div>
+         </div>
+         <div>
+            <ul class="list-group list-group-horizontal">
+              <li class="list-group-item">10%</li>
+              <li class="list-group-item">15%</li>
+              <li class="list-group-item">20%</li>
+            </ul>
+            <span>You are tipping .....</span>
+          </div>
+        <div>
+          <ul class="list-group">
+              <li class="list-group-item">Bill Amount: </li>
+              <li class="list-group-item">Tip Percentage: </li>
+              <li class="list-group-item">Amount of Tip: </li>
+              <li class="list-group-item">Total to be Paid: </li>
+            </ul>
+          </div>
     </main>
 </body>
-
 </html>
